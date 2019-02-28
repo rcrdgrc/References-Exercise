@@ -8,7 +8,7 @@ end
 
 
 str_1 = "hello"
-p str_1.object_id                       # => 70120944788380
+p str_1.object_id                       # => 70120944788380 #same memory box
 result_1 = replace_char_at!(str_1, "j", 0)
 p result_1                              # => "jello"
 p result_1.object_id                    # => 70120944788380
